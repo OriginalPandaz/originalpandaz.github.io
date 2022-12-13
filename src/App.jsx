@@ -48,8 +48,8 @@ function App() {
           title="EmailFaster"
           className="projects-header"
         ></img>
-        <div class="row">
-          <div class="column">
+        <div className="row">
+          <div className="column">
             <img
               src="/assets/family.png"
               alt="Family Connect"
@@ -90,7 +90,7 @@ function App() {
               Google Playstore
             </button>
           </div>
-          <div class="column">
+          <div className="column">
             <img
               src="/assets/email.png"
               alt="EmailFaster"
@@ -126,7 +126,7 @@ function App() {
               Github
             </button>
           </div>
-          <div class="column">
+          <div className="column">
             <img
               src="/assets/bronco.png"
               alt="Bronco More Direct"

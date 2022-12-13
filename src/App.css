@@ -77,6 +77,7 @@ h2 {
 .column img {
   width: 50%;
   height: 140px;
+  border-radius: 0.5rem;
 }
 
 /* Clear floats after the columns */
@@ -102,5 +103,37 @@ button {
     width: 100%;
     float: none;
     margin-bottom: 2rem;
+  }
+
+  .projects-header {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-info {
+    margin-left: 0.5rem;
+  }
+
+  .column {
+    width: 100%;
+    float: none;
+    margin-bottom: 2rem;
+  }
+
+  .projects-header {
+    width: 50%;
+  }
+
+  .column img {
+    width: 80%;
+  }
+
+  .description {
+    margin: 0 10% 0.5rem;
+  }
+
+  button {
+    width: 80%;
   }
 }
