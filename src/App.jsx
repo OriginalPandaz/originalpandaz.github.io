@@ -43,7 +43,7 @@ function App() {
       </header>
       <main>
         <img
-          src="assets/projects.png"
+          src="/assets/projects.png"
           alt="EmailFaster"
           title="EmailFaster"
           className="projects-header"
@@ -51,7 +51,7 @@ function App() {
         <div class="row">
           <div class="column">
             <img
-              src="assets/family.png"
+              src="/assets/family.png"
               alt="Family Connect"
               title="Family Connect"
             ></img>
@@ -92,7 +92,7 @@ function App() {
           </div>
           <div class="column">
             <img
-              src="assets/email.png"
+              src="/assets/email.png"
               alt="EmailFaster"
               title="EmailFaster"
             ></img>
@@ -128,7 +128,7 @@ function App() {
           </div>
           <div class="column">
             <img
-              src="assets/bronco.png"
+              src="/assets/bronco.png"
               alt="Bronco More Direct"
               title="Bronco More Direct"
             ></img>
