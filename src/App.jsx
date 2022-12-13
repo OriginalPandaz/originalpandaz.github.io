@@ -42,7 +42,127 @@ function App() {
         </div>
       </header>
       <main>
-        <h2>Projects</h2>
+        <img
+          src="/assets/Projects.png"
+          alt="EmailFaster"
+          title="EmailFaster"
+          className="projects-header"
+        ></img>
+        <div class="row">
+          <div class="column">
+            <img
+              src="/assets/Family_Connect.png"
+              alt="Family Connect"
+              title="Family Connect"
+            ></img>
+            <ul className="description">
+              <li>
+                Developed a mobile application that allows users to share their
+                location
+              </li>
+              <li>
+                Leveraged Firebase Authentication to implement secure Google
+                login and sign up
+              </li>
+              <li>
+                Queried the user’s real-time location and shared upon contacts
+                using Firebase Realtime Database
+              </li>
+              <li>
+                Utilized Google’s Map API to provide a dynamic map view of the
+                users’ locations
+              </li>
+              <li>
+                Implemented a marker selector to provide color options to easily
+                identify contacts
+              </li>
+            </ul>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(
+                  "https://play.google.com/store/apps/details?id=com.family.connect&pli=1",
+                  "_blank"
+                );
+              }}
+              type="button"
+            >
+              Google Playstore
+            </button>
+          </div>
+          <div class="column">
+            <img
+              src="/assets/EmailFaster.png"
+              alt="EmailFaster"
+              title="EmailFaster"
+            ></img>
+            <ul className="description">
+              <li>
+                Developed a web application to auto-populate template emails
+              </li>
+              <li>
+                Achieved faster rendering time through static web pages and
+                dynamically generated emails based on the user’s XML data
+              </li>
+              <li>
+                Utilized the browser’s local storage to cache templates for
+                future usage and reduce retrieval time
+              </li>
+              <li>
+                Engineered with Vite for faster development and ensured type
+                safety using TypeScript
+              </li>
+            </ul>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(
+                  "https://github.com/OriginalPandaz/EmailFaster",
+                  "_blank"
+                );
+              }}
+              type="button"
+            >
+              Github
+            </button>
+          </div>
+          <div class="column">
+            <img
+              src="assets/BroncoMoreDirect.png"
+              alt="Bronco More Direct"
+              title="Bronco More Direct"
+            ></img>
+            <ul className="description">
+              <li>
+                Engineered a more informative version of the web application
+                Bronco Direct class scheduler
+              </li>
+              <li>
+                Cached class schedules and professor ratings in DynamoDB to
+                increase the query retrieval by 80%
+              </li>
+              <li>
+                Implemented web scraping in AWS Lambda function calls for API
+                calls used by the front-end application
+              </li>
+              <li>
+                Provided scalable and reliable database through AWS DynamoDB
+              </li>
+            </ul>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(
+                  "https://github.com/OriginalPandaz/Bronco-More-Direct",
+                  "_blank"
+                );
+              }}
+              type="button"
+            >
+              Github
+            </button>
+          </div>
+        </div>
       </main>
     </div>
   );
