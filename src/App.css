@@ -8,6 +8,10 @@ html {
   padding-top: 0;
 }
 
+main {
+  text-align: center;
+}
+
 header {
   background: #344e41;
   color: #ffff;
