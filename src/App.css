@@ -6,6 +6,7 @@
 html {
   margin-top: 0;
   padding-top: 0;
+  height: 100%;
 }
 
 main {
@@ -36,6 +37,7 @@ body {
   margin: 0 auto;
   padding: 0 auto;
   background-color: #eaeded;
+  height: 100%;
 }
 
 h1 {
