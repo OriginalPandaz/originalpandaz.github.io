@@ -42,12 +42,14 @@ function App() {
         </div>
       </header>
       <main>
-        <img
-          src="/assets/projects.png"
-          alt="EmailFaster"
-          title="EmailFaster"
-          className="projects-header"
-        ></img>
+        <div className="image-container">
+          <img
+            src="/assets/projects.png"
+            alt="EmailFaster"
+            title="EmailFaster"
+            className="projects-header"
+          ></img>
+        </div>
         <div className="row">
           <div className="column">
             <img
