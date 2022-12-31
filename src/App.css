@@ -48,7 +48,7 @@ body {
   padding: 0.5rem;
 }
 
-.navbar ul {
+.navbar-inactive {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -56,21 +56,23 @@ body {
   gap: 0.5rem;
   text-transform: uppercase;
 }
-.navbar li {
+.navbar-link {
   padding: 21px 16px;
 }
 
-.navbar li.active {
-  background-color: #1f3f8a;
-}
-
-.navbar li:hover {
+.navbar-link:hover {
   background-color: #24396c;
 }
 
-.navbar a {
+.link-sections {
   text-decoration: none;
   color: inherit;
+}
+
+.navbar-dropdown {
+  visibility: hidden;
+  max-width: 0;
+  position: absolute;
 }
 
 .banner-section {
@@ -150,9 +152,10 @@ body {
   margin: 1rem;
 }
 
-.card p {
+.card li {
   color: black;
-  margin: 1rem;
+  margin: 1rem 1rem 0 0;
+  font-size: 18px;
 }
 
 .project-button:last-child {
@@ -205,5 +208,77 @@ footer a {
   .container {
     max-width: 1200px;
     margin: auto;
+  }
+}
+
+@media only screen and (max-width: 692px) {
+  .about-me {
+    display: inline;
+  }
+  .about-me img {
+    width: 90%;
+    height: 90%;
+    border-radius: 0;
+  }
+
+  .project-button {
+    width: max-content;
+  }
+
+  .navbar {
+    height: 60px;
+    width: 100%;
+  }
+
+  .navbar-resp {
+    background-color: #14213d;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 60px;
+    bottom: 180px;
+  }
+
+  .navbar-inactive {
+    display: none !important;
+  }
+
+  .navbar-active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: #14213d;
+    text-align: center;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .navbar-link {
+    padding: 0;
+  }
+
+  .link-sections {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 1rem;
+  }
+
+  .navbar-dropdown {
+    position: relative;
+    visibility: visible;
+  }
+
+  .banner-section {
+    padding: 0.5rem;
   }
 }

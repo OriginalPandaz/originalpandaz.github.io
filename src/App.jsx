@@ -79,7 +79,7 @@ function App() {
               </a>
               <div className="card">
                 <h2 className="card-title">EmailFaster</h2>
-                <p>
+                <ul>
                   <li>
                     Developed a web application to auto-populate template emails
                   </li>
@@ -95,7 +95,7 @@ function App() {
                     Engineered with Vite for faster development and ensured type
                     safety using TypeScript
                   </li>
-                </p>
+                </ul>
               </div>
               <div className="project-button-section">
                 <a
@@ -113,7 +113,7 @@ function App() {
               </div>
               <div className="card">
                 <h2 className="card-title">Student Calendar</h2>
-                <p>
+                <ul>
                   <li>
                     Created a student calendar web application using React.js
                     that auto-generates class schedules to a certain time period
@@ -126,12 +126,12 @@ function App() {
                     Provided secure user registration by hashing user’s
                     credentials using Bcrypt
                   </li>
-                </p>
+                </ul>
               </div>
 
               <div className="card">
                 <h2 className="card-title">Bronco More Direct</h2>
-                <p>
+                <ul>
                   <li>
                     Engineered a more informative version of the web application
                     Bronco Direct class scheduler
@@ -147,7 +147,7 @@ function App() {
                   <li>
                     Provided scalable and reliable database through AWS DynamoDB
                   </li>
-                </p>
+                </ul>
               </div>
               <a
                 href="https://github.com/OriginalPandaz/Bronco-More-Direct"
@@ -157,7 +157,7 @@ function App() {
               </a>
               <div className="card">
                 <h2 className="card-title">Weather Web App</h2>
-                <p>
+                <ul>
                   <li>
                     Utilized open-source weather API to retrieve data for
                     front-end web applicaition
@@ -170,7 +170,7 @@ function App() {
                     Provides daily weather and hourly weather based on user's
                     location and made responsive for all device screens
                   </li>
-                </p>
+                </ul>
               </div>
               <div className="project-button-section">
                 <a
@@ -188,7 +188,7 @@ function App() {
               </div>
               <div className="card">
                 <h2 className="card-title">Bomberman</h2>
-                <p>
+                <ul>
                   <li>
                     Built the single-player game Bomberman in C++ and utilized
                     Simple Fast and Multimedia (SFML) library to implement the
@@ -198,7 +198,7 @@ function App() {
                     Configured enemy's "hit detection" using SFML Pixel Perfect
                     Collision which allowed the automation of the AI's movement
                   </li>
-                </p>
+                </ul>
               </div>
               <a
                 href="https://github.com/OriginalPandaz/Bomberman"
