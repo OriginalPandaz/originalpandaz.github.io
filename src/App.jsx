@@ -75,7 +75,9 @@ function App() {
                 href="https://play.google.com/store/apps/details?id=com.family.connect"
                 target={"_blank"}
               >
-                <button className="project-button">Google Playstore</button>
+                <button className="primary-project-button">
+                  Google Playstore
+                </button>
               </a>
               <div className="card">
                 <h2 className="card-title">EmailFaster</h2>
@@ -102,13 +104,15 @@ function App() {
                   href="https://github.com/OriginalPandaz/EmailFaster/"
                   target={"_blank"}
                 >
-                  <button className="project-button">GitHub</button>
+                  <button className="primary-project-button">GitHub</button>
                 </a>
                 <a
                   href="https://originalpandaz.github.io/EmailFaster/"
                   target={"_blank"}
                 >
-                  <button className="project-button">Web Application</button>
+                  <button className="secondary-project-button">
+                    Web Application
+                  </button>
                 </a>
               </div>
               <div className="card">
@@ -153,7 +157,7 @@ function App() {
                 href="https://github.com/OriginalPandaz/Bronco-More-Direct"
                 target={"_blank"}
               >
-                <button className="project-button">Github</button>
+                <button className="primary-project-button">Github</button>
               </a>
               <div className="card">
                 <h2 className="card-title">Weather Web App</h2>
@@ -177,13 +181,15 @@ function App() {
                   href="https://github.com/OriginalPandaz/weather-app"
                   target={"_blank"}
                 >
-                  <button className="project-button">Github</button>
+                  <button className="primary-project-button">Github</button>
                 </a>
                 <a
                   href="https://originalpandaz.github.io/weather-app/"
                   target={"_blank"}
                 >
-                  <button className="project-button">Web Application</button>
+                  <button className="secondary-project-button">
+                    Web Application
+                  </button>
                 </a>
               </div>
               <div className="card">
@@ -204,7 +210,7 @@ function App() {
                 href="https://github.com/OriginalPandaz/Bomberman"
                 target={"_blank"}
               >
-                <button className="project-button">Github</button>
+                <button className="primary-project-button">Github</button>
               </a>
             </div>
           </div>
