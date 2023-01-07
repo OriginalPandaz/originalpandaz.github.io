@@ -23,6 +23,11 @@ export function Navbar() {
             Projects
           </a>
         </li>
+        <li className="navbar-link">
+          <a href="#skills" className="link-sections">
+            Skills
+          </a>
+        </li>
       </ul>
       <div className="navbar-dropdown">
         <i
