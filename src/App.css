@@ -35,16 +35,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   position: fixed;
   width: 100%;
   top: 0;
 }
 
 .navbar-icon {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
+  height: 50px;
+  width: 50px;
   padding: 0.5rem;
 }
 
@@ -254,6 +253,7 @@ footer a {
   .navbar {
     height: 60px;
     width: 100%;
+    padding: 0 0.5rem;
   }
 
   .navbar-resp {
@@ -262,7 +262,7 @@ footer a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1.5rem;
+    padding: 0 0.5rem;
     position: fixed;
     width: 100%;
     top: 0;
@@ -302,6 +302,7 @@ footer a {
   .navbar-dropdown {
     position: relative;
     visibility: visible;
+    padding-right: 1rem;
   }
 
   .banner-section {
