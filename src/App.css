@@ -150,12 +150,18 @@ body {
 .card-title {
   color: #14213d;
   margin: 1rem;
+  justify-content: space-between;
+  display: flex;
 }
 
 .card li {
   color: black;
   margin: 1rem 1rem 0 0;
   font-size: 18px;
+}
+
+.project-date {
+  text-align: end;
 }
 
 .primary-project-button:last-child {
@@ -307,5 +313,12 @@ footer a {
 
   .banner-section {
     padding: 0.5rem;
+  }
+
+  .card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
   }
 }

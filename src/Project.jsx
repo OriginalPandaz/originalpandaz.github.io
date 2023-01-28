@@ -5,11 +5,14 @@ export function Project() {
       <div className="container">
         <div className="project-cards">
           <div className="card">
-            <h2 className="card-title">Family Connect</h2>
+            <h2 className="card-title">
+              Family Connect
+              <span className="project-date">Jan 2022</span>
+            </h2>
             <ul>
               <li>
                 Developed a mobile application that allows users to share their
-                location
+                location with each other
               </li>
               <li>
                 Leveraged Firebase Authentication to implement secure Google
@@ -20,7 +23,7 @@ export function Project() {
                 using Firebase Realtime Database
               </li>
               <li>
-                Utilized Google’s Map API to provide a dynamic map view of the
+                Utilized Google Maps API to provide a dynamic map view of the
                 users’ locations
               </li>
               <li>
@@ -36,14 +39,21 @@ export function Project() {
             <button className="primary-project-button">Google Playstore</button>
           </a>
           <div className="card">
-            <h2 className="card-title">EmailFaster</h2>
+            <h2 className="card-title">
+              EmailFaster
+              <span className="project-date">Sept 2022</span>
+            </h2>
             <ul>
               <li>
-                Developed a web application to auto-populate template emails
+                Developed a web application to auto-populate template emails to
+                replicate bulk emailing
               </li>
               <li>
-                Achieved faster rendering time through static web pages and
-                dynamically generated emails based on the user’s XML data
+                Achieved faster page rendering time through static web pages
+              </li>
+              <li>
+                Dynamically generated emails based on the user’s XML data and
+                template keywords
               </li>
               <li>
                 Utilized the browser’s local storage to cache templates for
@@ -72,40 +82,22 @@ export function Project() {
             </a>
           </div>
           <div className="card">
-            <h2 className="card-title">Student Calendar</h2>
+            <h2 className="card-title">
+              Bronco More Direct
+              <span className="project-date">Dec 2021</span>
+            </h2>
             <ul>
-              <li>
-                Created a student calendar web application using React.js that
-                auto-generates class schedules to a certain time period
-              </li>
-              <li>
-                Deployed REST API built with Node.js, Express.js, and MongoDB to
-                AWS for user authentication and data access
-              </li>
-              <li>
-                Provided secure user registration by hashing user’s credentials
-                using Bcrypt
-              </li>
-            </ul>
-          </div>
-
-          <div className="card">
-            <h2 className="card-title">Bronco More Direct</h2>
-            <ul>
-              <li>
-                Engineered a more informative version of the web application
-                Bronco Direct class scheduler
-              </li>
               <li>
                 Cached class schedules and professor ratings in DynamoDB to
                 increase query retrieval by 80%
               </li>
               <li>
-                Implemented web scraping in AWS Lambda function calls for API
-                calls used by the front-end application
+                Implemented web scraping AWS Lambda function calls with Python
+                to send data to API Gateway calls
               </li>
               <li>
-                Provided scalable and reliable database through AWS DynamoDB
+                Provided scalable and reliable data storage through the use of
+                AWS DynamoDB
               </li>
             </ul>
           </div>
@@ -116,19 +108,46 @@ export function Project() {
             <button className="primary-project-button">Github</button>
           </a>
           <div className="card">
-            <h2 className="card-title">Weather Web App</h2>
+            <h2 className="card-title">
+              Student Calendar
+              <span className="project-date">Jan 2022</span>
+            </h2>
             <ul>
               <li>
-                Utilized open-source weather API to retrieve data for front-end
-                web applicaition
+                Created a student calendar that helps keep track of tasks and
+                class schedules
               </li>
               <li>
-                Requests the usage of the user's geolocation to relevant weater
-                data for the user
+                Deployed REST API built with Express and NodeJS to AWS providing
+                aggregated calendar data for users
               </li>
               <li>
-                Provides daily weather and hourly weather based on user's
-                location and made responsive for all device screens
+                Utilized MongoDB to store and manage student calendar data,
+                including events, assignments, and deadlines
+              </li>
+              <li>
+                Implemented user authentication and authorization to restrict
+                access to the calendar to authorized users by using Bcrypt
+              </li>
+            </ul>
+          </div>
+          <div className="card">
+            <h2 className="card-title">
+              Weather Web App
+              <span className="project-date">Dec 2022</span>
+            </h2>
+            <ul>
+              <li>
+                Utilized the Open-Meteo API to gather and display real-time
+                weather information
+              </li>
+              <li>
+                Engineered the application to ensure mobile responsiveness and
+                usability on a variety of devices
+              </li>
+              <li>
+                Requests the usage of the user's geolocation to provide relevant
+                weater data for the user
               </li>
             </ul>
           </div>
@@ -149,7 +168,9 @@ export function Project() {
             </a>
           </div>
           <div className="card">
-            <h2 className="card-title">Bomberman</h2>
+            <h2 className="card-title">
+              Bomberman<span className="project-date">Jan 2020</span>
+            </h2>
             <ul>
               <li>
                 Built the single-player game Bomberman in C++ and utilized
