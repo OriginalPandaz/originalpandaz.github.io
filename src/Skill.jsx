@@ -9,13 +9,13 @@ export function Skill() {
           </div>
           <div className="skill-item">
             <h2>Frameworks: </h2>
-            <span>React, Node.js, Express, HTML/CSS, REST</span>
+            <span>React, Node.js, Express, ASP.NET HTML/CSS, REST</span>
           </div>
           <div className="skill-item">
             <h2>Tools: </h2>
             <span>
-              Git, GitHub, AWS, MongoDB, DynamoDB, Firebase, Vite, Google Maps
-              API, Google Authentication
+              Git, GitHub, AWS, Microsoft SQL, MongoDB, DynamoDB, Firebase,
+              Vite, Google Maps API, Google Authentication
             </span>
           </div>
         </div>
